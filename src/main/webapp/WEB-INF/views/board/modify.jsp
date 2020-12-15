@@ -17,7 +17,7 @@
   <div class="col-lg-12">
     <div class="panel panel-default">
 
-      <div class="panel-heading">Board Modify</div>
+      <div class="panel-heading">Board Modify!/div>
       <!-- /.panel-heading -->
       <div class="panel-body">
       
@@ -26,7 +26,7 @@
       <form role="form" action="/board/modify" method="post">
       
       
-          <div class="form-group">
+          <div class="form-group"> 
           <label>Bno</label> <input class="form-control" name='bno'
             value='<c:out value="${board.bno }"/>' readonly="readonly">
           </div>
